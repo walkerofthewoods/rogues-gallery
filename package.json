@@ -1,31 +1,31 @@
 {
-  "name": "rogues-gallery",
-  "version": "1.0.0",
-  "description": "memory game",
-  "main": "server.js",
-  "engines": {
-    "node": "12.19.0"
-  }
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "client": "npm run start --prefix client",
-    "start": "node server.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/walkerofthewoods/rogues-gallery.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/walkerofthewoods/rogues-gallery/issues"
-  },
-  "homepage": "https://github.com/walkerofthewoods/rogues-gallery#readme",
-  "dependencies": {
-    "axios": "^0.21.0",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "request": "^2.88.2"
-  }
+	"name": "rogues-gallery",
+	"version": "1.0.0",
+	"description": "memory game",
+	"main": "server.js",
+	"engines": {
+		"node": "12.19.0"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"client": "npm run start --prefix client",
+		"start": "node server.js",
+		"heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/walkerofthewoods/rogues-gallery.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/walkerofthewoods/rogues-gallery/issues"
+	},
+	"homepage": "https://github.com/walkerofthewoods/rogues-gallery#readme",
+	"dependencies": {
+		"axios": "^0.21.0",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"request": "^2.88.2"
+	}
 }
