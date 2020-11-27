@@ -18,8 +18,4 @@ app.get('/superheroproxy', (req, res) => {
 	request(url).pipe(res);
 });
 
-app.get('*', function(request, response) {
-	response.sendFile(path.resolve(__dirname, '../client/build', 'index.html'));
-});
-
 app.listen(port, () => console.log(`superheroapi-cors app listening on port ${port}!`));
