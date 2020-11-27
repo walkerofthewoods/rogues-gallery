@@ -10,7 +10,7 @@
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"client": "npm run start --prefix client",
 		"start": "node server.js",
-		"heroku-postbuild": "cd client/ && npm install && npm run build"
+		"heroku-postbuild": "cd client && npm install && npm run build"
 	},
 	"cacheDirectories": [ "node_modules", "client/node_modules" ],
 	"repository": {
