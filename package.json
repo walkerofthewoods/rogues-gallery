@@ -1,0 +1,26 @@
+{
+  "name": "rogues-gallery",
+  "version": "1.0.0",
+  "description": "memory game",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walkerofthewoods/rogues-gallery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/walkerofthewoods/rogues-gallery/issues"
+  },
+  "homepage": "https://github.com/walkerofthewoods/rogues-gallery#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}
