@@ -10,8 +10,9 @@
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"client": "npm run start --prefix client",
 		"start": "node server.js",
-		"build": "cd ./client && npm install && npm run build"
+		"build": "cd client/ && npm install && npm run build"
 	},
+	"cacheDirectories": [ "node_modules", "client/node_modules" ],
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/walkerofthewoods/rogues-gallery.git"
