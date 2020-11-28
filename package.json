@@ -11,7 +11,7 @@
 		"server": "nodemon server.js",
 		"client": "npm run start --prefix client",
 		"start": "node server.js",
-		"heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+		"heroku-postbuild": "npm install --prefix client && npm run build --prefix client"
 	},
 	"cacheDirectories": [ "node_modules", "client/node_modules" ],
 	"repository": {
