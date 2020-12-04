@@ -17,11 +17,11 @@ const Field = (props) => {
 
 	useEffect(() => {
 		setDeck([]);
-		fetchData();
+		fetchData(boardSize);
 	}, []);
 
-	async function fetchData() {
-		for (let i = 0; i < boardSize; i++) {
+	async function fetchData(quantity) {
+		for (let i = 0; i < quantity; i++) {
 			try {
 				const response = await axios.get(`/superheroproxy?id=${order[i]}`);
 				setDeck((deck) => [ ...deck, { name: response.data.name, url: response.data.url, clicked: false } ]);
