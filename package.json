@@ -25,9 +25,9 @@
 	},
 	"homepage": "https://github.com/walkerofthewoods/rogues-gallery#readme",
 	"dependencies": {
-		"axios": "^0.21.0",
+		"axios": "^0.21.3",
 		"dotenv": "^8.2.0",
-		"express": "^4.17.1",
+		"express": "^4.17.3",
 		"request": "^2.88.2"
 	}
 }
